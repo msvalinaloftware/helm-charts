@@ -1,5 +1,9 @@
 replicaCount: 3
 
+env: ""
+clusterName: ""
+awsRegion: ""
+
 image:
   repository: openfga/openfga
   pullPolicy: Always
