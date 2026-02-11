@@ -5,6 +5,18 @@
         "global": {
             "type": "object"
         },
+		"env": {
+            "type": "string",
+            "description": "the environment the OpenFGA instance is running in (e.g. staging, production, etc.)"
+        },
+        "clusterName": {
+            "type": "string",
+            "description": "the name of the cluster the OpenFGA instance is running in"
+        },
+        "awsRegion": {
+            "type": "string",
+            "description": "the AWS region the OpenFGA instance is running in (if applicable)"
+        },
         "image": {
             "type": "object",
             "properties": {
