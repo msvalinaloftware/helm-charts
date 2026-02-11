@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  openfga:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/signKey: |
+        fingerprint: 8E9B315F6C22E339959DA77B35CCF4BDC9F58F2A
+        url: https://openfga.github.io/helm-charts/pgp-public-key.asc
+    apiVersion: v2
+    appVersion: v1.11.4
+    created: "2026-02-11T14:30:08.5134032+01:00"
+    description: A Kubernetes Helm chart for the OpenFGA project.
+    digest: 204afc14a6ec79eacba49a3ee5837e75d85dc617e09119af67c0b0fc8cd0b820
+    home: https://openfga.github.io/helm-charts
+    icon: https://github.com/openfga/community/raw/main/brand-assets/icon/color/openfga-icon-color.svg
+    name: openfga
+    type: application
+    urls:
+    - https://msvalinaloftware.github.io/helm-charts/openfga-0.2.53.tgz
+    version: 0.2.53
+generated: "2026-02-11T14:30:08.512401+01:00"

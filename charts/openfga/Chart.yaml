@@ -15,17 +15,3 @@ annotations:
     fingerprint: 8E9B315F6C22E339959DA77B35CCF4BDC9F58F2A
     url: https://openfga.github.io/helm-charts/pgp-public-key.asc
 
-dependencies:
-  - name: postgresql
-    version: "12.12.10"
-    repository: https://charts.bitnami.com/bitnami
-    condition: postgresql.enabled
-  - name: mysql
-    version: "9.6.0"
-    repository: https://charts.bitnami.com/bitnami
-    condition: mysql.enabled
-  - name: common
-    version: "2.13.3"
-    repository: oci://registry-1.docker.io/bitnamicharts
-    tags:
-      - bitnami-common
